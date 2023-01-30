@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.scss";
 import { ApiPdfView } from "./pages/ApiPdfView";
-// import { Pdf } from "./pages/PDF";
-// import ImageView from "./pages/ImageView";
-// import { PdfView } from "./pages/PdfView";
+import { ImgPdf } from "./pages/ImgPdf";
+import { Pdf } from "./pages/PDF";
+import ImageView from "./pages/ImageView";
+import { PdfView } from "./pages/PdfView";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <ImageView /> */}
       {/* <PdfView /> */}
       {/* <Pdf /> */}
-      <ApiPdfView />
+      {/* <ApiPdfView /> */}
+      <ImgPdf />
     </div>
   );
 }

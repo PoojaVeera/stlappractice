@@ -14,6 +14,7 @@ export function PdfView() {
   return (
     <div>
       <input type="file" onChange={onFileChange} accept="application/pdf" />
+
       <Document file={file}>
         <Page pageNumber={1} />
         <Page pageNumber={7} />
