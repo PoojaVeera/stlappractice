@@ -17,3 +17,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.item {
+  color: green;
+}
+li[data-item="Value 1"] {
+  color: red;
+}
+
+.k-dropdown.k-list-container
+  .k-list.k-state-selected
+  .k-item
+  .k-state-default
+  .k-widget
+  .k-state-focused {
+  color: green !important;
+}
+.k-picker-solid:focus-within {
+  color: green;
+}
+.k-picker-solid:focus {
+  color: green;
+}
+
+.k-picker-solid {
+  color: green;
+}
+.pp {
+  color: red;
+}
